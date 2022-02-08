@@ -53,7 +53,7 @@ router.get('/:id', (req, res) => {
       },
       {
         model: Tag,
-        attributes: ['id', 'tag_name']
+        attributes: ['id', 'tag_name'],
       }
     ]
   })
@@ -146,7 +146,7 @@ router.delete('/:id', (req, res) => {
     }
   })
     .then(dbProductData => {
-      if(!dbProductData) {
+      if (!dbProductData) {
         res.status(404).json({ message: 'No post found with this id' });
         return;
       }
