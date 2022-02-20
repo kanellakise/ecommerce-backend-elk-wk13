@@ -30,6 +30,10 @@ After you create your .env file, create the database, and optionally seed the da
 
 To run the program, ensure your command line is accessing the root directory, and run ```npm run start```. Routes can be tested either in the browser (limited to only GET requests), or with inserted JSON data from insomnia (for all CRUD API requests), using this URL: http://localhost:3001
 
+## Link to Walkthrough Video
+
+[eCommerce Walkthrough](https://drive.google.com/file/d/1jtMKaEnDK5qy7JZxMICoS3exRUP3qYS0/view)
+
 ## Credits
 
 Elijah Kanellakis
